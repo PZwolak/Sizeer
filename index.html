@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <ul>
+                <li>LOREM IPSUM</li>
+                <span>/</span>
+                <li>LOREM IPSUM</li>
+                <span>/</span>
+                <li>LOREM IPSUM</li>
+                <span>/</span>
+                <li>LOREM IPSUM</li>
+                <span>/</span>
+                <li>SIZECLUB</li>
+                <span>/</span>
+                <li>NEWSLETTER</li>
+                <span>/</span>
+                <li>+48126818484</li>
+            </ul>
+        </div>
+        <div>
+            <img class="logo" src="img/logo.png" alt="Logo - Sizeer">
+            <ul>
+                <li>SIZER CLUB</li>
+                <li>SI MAGAZYN</li>
+                <li>SIZER MUSIC</li>
+                <li>SKLEP ON-LINE</li>
+            </ul>
+            <ul>
+                <li>PL</li>
+                <li>DE</li>
+                <li>SK</li>
+                <li>CZ</li>
+                <li>EN</li>
+            </ul>
+        </div>
+        <div>
+            <ul id="scene">
+                <li class="layer" data-depth="0.20"><img src="img/paralax1/background2.png"></li>
+                <li class="layer" data-depth="0.40"><img src="img/paralax1/pig.png"></li>
+                <li class="layer" data-depth="0.80"><img src="img/paralax1/title.png"></li>
+            </ul>
+        </div>
+        <img class="button" src="img/paralax1/button.jpg" alt="">
+    </header>
+    <section class="one">
+        <h1>III EDYCJA</h1>
+        <img src="img/section/pig_3edition.jpg" alt="">
+        <h1>ZOBACZ POPRZEDNIE EDYCJE</br> W SIZEERAPP:</h1>
+        <div>
+            <img src="img/section/pic1.jpg" alt="">
+            <img src="img/section/pic2.jpg" alt="">
+            <img src="img/section/pic3.jpg" alt="">
+            <img src="img/section/pic4.jpg" alt="">
+            <img src="img/section/pic5.jpg" alt="">
+            <img src="img/section/pic6.jpg" alt="">
+            <img src="img/section/malta2015.png" alt="">
+            <img src="img/section/malta2016.png" alt="">
+        </div>
+    </section>
+    <section class="two">
+        <ul id="scene2">
+            <li class="layer" data-depth="0.50"><img src="img/section2/motorcycle_pig.png" alt=""></li>
+            <li class="layer" data-depth="0.25"><img src="img/section2/bg_sec2a.png" alt=""></li>
+            <li class="layer" data-depth="0.08">
+                <div>
+                    <h1>Wyślij Kicksa na przygodę życia!
+                        Wyślij go w miejsca, o których nawet nie śnił! Pozwól mu budować jego własną historię.
+                        Kicks kocha czasoprzestrzeń więc nie ograniczaj się i dostarcz mu wrażeń na swoją miarę
+                        <span>#niemanudy.</span>
+                    </h1>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <img class="ok" src="img/section2/ok.png" alt="">
+    <section class="three">
+        <ul id="scene3">
+            <li class="layer" data-depth="0.25"><img src="img/section3/bg_sec3a.png" alt=""></li>
+            <li class="layer" data-depth="5"><img src="img/section3/rocket_pig2.png" alt=""></li>
+            <li class="layer" data-depth="0.08">
+                <div>x</div>
+                <div>
+                    <h1>Zmontuj, przerób, sklej lub nagraj i przenieś Kicksa w przygodę życia.
+                        Wrzuć na Instagram, dodaj hashtag <span>#SizeerxKicks</span> i oznacz osobę, z którą chcesz
+                        Lecieć na Maltę.
+                    </h1>
+                    <div>
+                        <img src="img/section3/but1.png" alt="">
+                        <img src="img/section3/but2.png" alt="">
+                        <img src="img/section3/but3.png" alt="">
+                    </div>
+                    <h2>Masz pomysł od czapy? Super! Wygrywają najbardziej odjechane i kreatywne pomysły. </h2>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <img class="wow" src="img/section4/wow.png" alt="">
+    <section class="four"></section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+        var scene2 = document.getElementById('scene2');
+        var parallax2 = new Parallax(scene2);
+        var scene3 = document.getElementById('scene3');
+        var parallax3 = new Parallax(scene3);
+    </script>
+</body>
+
+</html>
